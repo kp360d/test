@@ -1,0 +1,8 @@
+git --version
+git init
+
+git config --global user.name 'kp'
+git config --global user.email 'kp360d@gmail.com'
+
+git add filename
+git status

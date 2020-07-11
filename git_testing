@@ -1,0 +1,309 @@
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git init
+Initialized empty Git repository in C:/Users/kamalesh.pradhan/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit/.git/
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git config --global user.name 'kp'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git config --global user.email 'kp360d@gmail.com'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add *.py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   sample_workflowcode.py
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git rm --cashed *py
+error: unknown option `cashed'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   sample_workflowcode.py
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add *py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add *.py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   sample_workflowcode.py
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   sample_workflowcode.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample_workflowcode.py
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add *.py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   sample_workflowcode.py
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git commit
+[master (root-commit) 353e623]  Initial commit
+ 1 file changed, 451 insertions(+)
+ create mode 100644 sample_workflowcode.py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample_workflowcode.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add *.py
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git commit -m 'first changed code.py'
+[master ff8acbc] first changed code.py
+ 1 file changed, 1 deletion(-)
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ touch log.txt
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ touch .gitignore
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git branch code
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git checkout code
+Switched to branch 'code'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ git touch test.txt
+git: 'touch' is not a git command. See 'git --help'.
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ touch test.txt
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ git add .
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ git status
+On branch code
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   test.txt
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ goit commit -m 'another chan'
+bash: goit: command not found
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ git commit -m 'another chan'
+[code 2b58853] another chan
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 test.txt
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (code)
+$ git checkout master
+Switched to branch 'master'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git merge code
+Updating ff8acbc..2b58853
+Fast-forward
+ .gitignore | 1 +
+ test.txt   | 0
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 test.txt
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git remote
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git remote add origin https://github.com/kp360d/test.git
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git remote
+origin
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git push -u origin master
+Username for 'https://github.com': kp
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kp360d/test.git/'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git push -u origin master
+Username for 'https://github.com': 'kp'
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kp360d/test.git/'
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git push -u origin master
+Username for 'https://github.com': kp360d@gmail.com
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 5.58 KiB | 0 bytes/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/kp360d/test.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ touch README.md
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add .
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git commit -m 'Added Readme'
+[master ecf0181] Added Readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add .
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git add .
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
+
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git commit -m 'Added Readme'
+[master 4ca6dd1] Added Readme
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git push
+Username for 'https://github.com': kp360d@gmail.com
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 559 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/kp360d/test.git
+   2b58853..4ca6dd1  master -> master
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
+$ git clone https://github.com/kp360d/test.git
+Cloning into 'test'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 16 (delta 3), reused 15 (delta 2), pack-reused 0
+Unpacking objects: 100% (16/16), done.
+Checking connectivity... done.
+
+kamalesh.pradhan@BDC9-LX-8L67ZY2 MINGW64 ~/OneDrive - Accenture/UPS/QuickHire/Jul/quickgit (master)
